@@ -5,7 +5,7 @@ body.addEventListener('mousemove', logKey);
 
 const btnClose = document.querySelector('.close')
 btnClose.addEventListener('click', closePopup)
-let ctn = document.querySelector('.ctn');
+
 
 function logKey(e) {
     if (e.screenY > 100) {
